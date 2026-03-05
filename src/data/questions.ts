@@ -137,7 +137,7 @@ export const questions: Question[] = [
         tl: { type: 'lensa', filled: true },
         tr: { type: 'layang_layang', filled: true, rotation: 'atas' },
         bl: { type: 'pita', filled: true, tails: 1 },
-        br: { type: 'segi_delapan', filled: false }
+        br: { type: 'segi_delapan', filled: true }
       },
       {
         label: 'E',
@@ -196,7 +196,7 @@ export const questions: Question[] = [
         tl: { type: 'jam_pasir', filled: false },
         tr: { type: 'mahkota', filled: false, points: 1 },
         bl: { type: 'perisai', filled: true },
-        br: { type: 'daun', filled: true, rotation: 'atas' }
+        br: { type: 'daun', filled: false, rotation: 'atas' }
       },
       {
         label: 'B',
