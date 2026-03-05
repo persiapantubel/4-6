@@ -88,23 +88,23 @@ export const questions: Question[] = [
       {
         tl: { type: 'lensa', filled: true },
         tr: { type: 'layang_layang', filled: true, rotation: 'atas' },
-        bl: { type: 'pita', filled: true, tails: 0 },
+        bl: { type: 'pita', filled: true, tails: 1 },
         br: { type: 'segi_delapan', filled: false }
       },
       {
         tl: { type: 'layang_layang', filled: false, rotation: 'bawah' },
         tr: { type: 'lensa', filled: false },
         bl: { type: 'segi_delapan', filled: true },
-        br: { type: 'pita', filled: false, tails: 0 }
+        br: { type: 'pita', filled: false, tails: 1 }
       },
       {
         tl: { type: 'segi_delapan', filled: false },
-        tr: { type: 'pita', filled: true, tails: 0 },
+        tr: { type: 'pita', filled: true, tails: 1 },
         bl: { type: 'layang_layang', filled: true, rotation: 'atas' },
         br: { type: 'lensa', filled: true }
       },
       {
-        tl: { type: 'pita', filled: false, tails: 0 },
+        tl: { type: 'pita', filled: false, tails: 1 },
         tr: { type: 'segi_delapan', filled: true },
         bl: { type: 'lensa', filled: false },
         br: { type: 'layang_layang', filled: false, rotation: 'bawah' }
@@ -115,14 +115,14 @@ export const questions: Question[] = [
         label: 'A',
         tl: { type: 'lensa', filled: true },
         tr: { type: 'layang_layang', filled: true, rotation: 'atas' },
-        bl: { type: 'pita', filled: true, tails: 0 },
+        bl: { type: 'pita', filled: true, tails: 1 },
         br: { type: 'segi_delapan', filled: false }
       },
       {
         label: 'B',
         tl: { type: 'lensa', filled: false },
         tr: { type: 'layang_layang', filled: false, rotation: 'bawah' },
-        bl: { type: 'pita', filled: false, tails: 0 },
+        bl: { type: 'pita', filled: false, tails: 1 },
         br: { type: 'segi_delapan', filled: true }
       },
       {
@@ -130,18 +130,18 @@ export const questions: Question[] = [
         tl: { type: 'layang_layang', filled: true, rotation: 'atas' },
         tr: { type: 'lensa', filled: true },
         bl: { type: 'segi_delapan', filled: false },
-        br: { type: 'pita', filled: true, tails: 0 }
+        br: { type: 'pita', filled: true, tails: 1 }
       },
       {
         label: 'D',
         tl: { type: 'lensa', filled: true },
         tr: { type: 'layang_layang', filled: true, rotation: 'atas' },
-        bl: { type: 'pita', filled: true, tails: 0 },
+        bl: { type: 'pita', filled: true, tails: 1 },
         br: { type: 'segi_delapan', filled: false }
       },
       {
         label: 'E',
-        tl: { type: 'pita', filled: true, tails: 0 },
+        tl: { type: 'pita', filled: true, tails: 1 },
         tr: { type: 'segi_delapan', filled: false },
         bl: { type: 'layang_layang', filled: true, rotation: 'atas' },
         br: { type: 'lensa', filled: true }
@@ -167,12 +167,12 @@ export const questions: Question[] = [
     boxes: [
       {
         tl: { type: 'jam_pasir', filled: false },
-        tr: { type: 'mahkota', filled: false, points: 0 },
+        tr: { type: 'mahkota', filled: false, points: 1 },
         bl: { type: 'perisai', filled: true },
         br: { type: 'daun', filled: true, rotation: 'atas' }
       },
       {
-        tl: { type: 'mahkota', filled: true, points: 0 },
+        tl: { type: 'mahkota', filled: true, points: 1 },
         tr: { type: 'perisai', filled: false },
         bl: { type: 'daun', filled: false, rotation: 'kanan' },
         br: { type: 'jam_pasir', filled: true }
@@ -181,12 +181,12 @@ export const questions: Question[] = [
         tl: { type: 'perisai', filled: true },
         tr: { type: 'daun', filled: true, rotation: 'bawah' },
         bl: { type: 'jam_pasir', filled: false },
-        br: { type: 'mahkota', filled: false, points: 0 }
+        br: { type: 'mahkota', filled: false, points: 1 }
       },
       {
         tl: { type: 'daun', filled: false, rotation: 'kiri' },
         tr: { type: 'jam_pasir', filled: true },
-        bl: { type: 'mahkota', filled: true, points: 0 },
+        bl: { type: 'mahkota', filled: true, points: 1 },
         br: { type: 'perisai', filled: false }
       }
     ],
@@ -194,28 +194,28 @@ export const questions: Question[] = [
       {
         label: 'A',
         tl: { type: 'jam_pasir', filled: false },
-        tr: { type: 'mahkota', filled: false, points: 0 },
+        tr: { type: 'mahkota', filled: false, points: 1 },
         bl: { type: 'perisai', filled: true },
         br: { type: 'daun', filled: true, rotation: 'atas' }
       },
       {
         label: 'B',
         tl: { type: 'jam_pasir', filled: false },
-        tr: { type: 'mahkota', filled: false, points: 0 },
+        tr: { type: 'mahkota', filled: false, points: 1 },
         bl: { type: 'perisai', filled: true },
         br: { type: 'daun', filled: true, rotation: 'atas' }
       },
       {
         label: 'C',
         tl: { type: 'jam_pasir', filled: true },
-        tr: { type: 'mahkota', filled: true, points: 0 },
+        tr: { type: 'mahkota', filled: true, points: 1 },
         bl: { type: 'perisai', filled: false },
         br: { type: 'daun', filled: false, rotation: 'atas' }
       },
       {
         label: 'D',
         tl: { type: 'jam_pasir', filled: false },
-        tr: { type: 'mahkota', filled: false, points: 0 },
+        tr: { type: 'mahkota', filled: false, points: 1 },
         bl: { type: 'perisai', filled: true },
         br: { type: 'daun', filled: true, rotation: 'kiri' }
       },
@@ -223,7 +223,7 @@ export const questions: Question[] = [
         label: 'E',
         tl: { type: 'daun', filled: true, rotation: 'atas' },
         tr: { type: 'jam_pasir', filled: false },
-        bl: { type: 'mahkota', filled: false, points: 0 },
+        bl: { type: 'mahkota', filled: false, points: 1 },
         br: { type: 'perisai', filled: true }
       }
     ],
